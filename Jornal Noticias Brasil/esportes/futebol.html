@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol</title>
+    <link rel="stylesheet" href="../style_index.css">
+</head>
+<body onresize="diminuiu()" onload="pagina()">
+    <header id="esportes">
+        <h1>FUTEBOL</h1>
+        <div id="menu">
+            <div><a class="item" id="inicio" href="../index.html">Início</a></div>
+
+            <div>
+                <a class="item" id="esportes" href="#" onmouseover="entrou('esportes')" onmouseout="saiu('esportes')">Esportes</a>
+                    <div onmouseover="entrou('esportes')" onmouseout="saiu('esportes')" class="esconder" id="menu_esportes">
+                        <a href="futebol.html">Futebol</a>
+                        <a href="volei.html">Vôlei</a>
+                        <a href="basquete.html">Basquete</a>
+                        <a href="MMA.html">MMA</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="politica" href="#" onmouseover="entrou('politica')" onmouseout="saiu('politica')">Política</a>
+                    <div onmouseover="entrou('politica')" onmouseout="saiu('politica')" class="esconder" id="menu_politica">
+                        <a href="../politica/nacional.html">Nacional</a>
+                        <a href="../politica/internacional.html">Internacional</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="entretenimento" href="#" onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')">Entretenimento</a>
+                    <div onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')" class="esconder" id="menu_entretenimento">
+                        <a href="../entretenimento/series.html">Séries</a>
+                        <a href="../entretenimento/filmes.html">Filmes</a>
+                        <a href="../entretenimento/novelas.html">Novelas</a>
+                    </div>
+            </div>
+            
+            <div>
+                <a class="item" id="curiosidades" href="#" onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')">Curiosidades</a>
+                    <div onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')" class="esconder" id="menu_curiosidades">
+                        <a href="../curiosidades/animais.html">Animais</a>
+                        <a href="../curiosidades/lugares.html">Lugares</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <section class="minisecao">
+                <h2>Diego Souza espera vitória do Grêmio diante da Chapecoense</h2>
+                <img src="imagens/futebol/diego-souza.jpeg" alt="diego-souza">
+                <p>Atacante crê em bom resultado do Tricolor para manter vivo a esperança de fugir do Z-4.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Sport vence o Bahia, sonha com permanência e joga o Grêmio à vice-lanterna do Brasileirão</h2>
+                <img src="imagens/futebol/sport.jpeg" alt="sport">
+                <p>Com dois jogos a mais em relação ao Imortal, Leão subiu para a 18ª posição, com 33 pontos, seis a menos que o Atlético-GO, último time fora da zona.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Palmeiras tem pior aproveitamento do Brasileirão jogando contra times do G-6</h2>
+                <img src="imagens/futebol/palmeiras.jpeg" alt="palmeiras">
+                <p>Verdão ainda não conseguiu vencer nenhuma das equipes que estão no topo da tabela da competição.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Premier League decide não liberar jogadores convocados; Clubes brasileiros podem ser prejudicados</h2>
+                <img src="imagens/futebol/premier-league.jpg" alt="premier-league">
+                <p>Visto que a seleção brasileira terá muitos desfalques importantes, a tendência é de que jogadores do Brasileirão sejam os mais cotados para serem convocados.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Atlético-MG tem 98% de chances de título; risco de queda do Sport é de 99% e do Grêmio é de 92%</h2>
+                <img src="imagens/futebol/atletic-mg.jpg" alt="atletic-mg">
+                <p>Na briga pelo G-4 e Libertadores, três times seguem colados nas chances.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Emprestado pelo Atlético-MG, goleiro Michael deixa o Confiança; tendência é de retorno a Portugal</h2>
+                <img src="imagens/futebol/michael.jpg" alt="michael">
+                <p>Goleiro de 26 anos será novamente cedido para outro clube visando temporada 2022.</p>
+            </section><br>
+    </main>
+    <footer>
+        &copy; Desenvolvido por <strong>Allan Bismarck</strong> para <strong>Testes</strong>
+    </footer>
+    <script src="../script_index.js"></script>
+</body>
+</html>

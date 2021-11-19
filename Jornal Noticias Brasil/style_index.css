@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+:root {
+    --largura-coluna: 160px;
+    --cor-fundo: rgb(162, 152, 219);
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: serif;
+    padding: 70px;
+    padding-bottom: 70px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.582);
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(28, 28, 247) 40%, rgb(11, 11, 63));
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.699);
+    list-style: none;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+div#menu {
+    display: flex;
+    background-color: rgb(206, 119, 21);
+}
+
+div#menu > div {
+    column-width: var(--largura-coluna);
+}
+
+div#menu > div > a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: unset;
+    text-align: center;
+}
+
+div#menu > div > a:hover {
+    display: block;
+    padding: 8px 10px;
+    color: white;
+    text-decoration: unset;
+    background-color: lightblue;
+}
+
+div#menu > div > div {
+    position: absolute;
+    background-color: darkblue;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.473);
+    text-align: center;
+    column-width: var(--largura-coluna);
+}
+
+div#menu > div > div > a {
+    padding: 8px;
+    text-align: center;
+    text-decoration: unset; 
+    display: block;
+}
+
+div#menu > div > div > a:hover {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: unset;
+    background-color: lightblue;
+}
+
+.esconder {
+    display: none;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: 0px auto;
+    text-align: justify;
+    padding: 10px;
+    columns: 3;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minisecao {
+    padding: 5px;
+    max-width: 280px;
+    margin: 0px auto;
+}
+
+p {
+    padding: 5px 0px;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+img {
+    max-width: 280px;
+    margin: 0px auto;
+    display: block;
+}
+
+footer {
+    padding: 15px 0px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(11, 11, 63), rgb(28, 28, 247) 60%);
+    color: white;
+    font-size: 10pt;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+    <link rel="stylesheet" href="../style_index.css">
+</head>
+<body onresize="diminuiu()" onload="pagina()">
+    <header id="entretenimento">
+        <h1>FILMES</h1>
+        <div id="menu">
+            <div><a class="item" id="inicio" href="../index.html">Início</a></div>
+
+            <div>
+                <a class="item" id="esportes" href="#" onmouseover="entrou('esportes')" onmouseout="saiu('esportes')">Esportes</a>
+                    <div onmouseover="entrou('esportes')" onmouseout="saiu('esportes')" class="esconder" id="menu_esportes">
+                        <a href="../esportes/futebol.html">Futebol</a>
+                        <a href="../esportes/volei.html">Vôlei</a>
+                        <a href="../esportes/basquete.html">Basquete</a>
+                        <a href="../esportes/MMA.html">MMA</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="politica" href="#" onmouseover="entrou('politica')" onmouseout="saiu('politica')">Política</a>
+                    <div onmouseover="entrou('politica')" onmouseout="saiu('politica')" class="esconder" id="menu_politica">
+                        <a href="../politica/nacional.html">Nacional</a>
+                        <a href="../politica/internacional.html">Internacional</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="entretenimento" href="#" onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')">Entretenimento</a>
+                    <div onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')" class="esconder" id="menu_entretenimento">
+                        <a href="series.html">Séries</a>
+                        <a href="filmes.html">Filmes</a>
+                        <a href="novelas.html">Novelas</a>
+                    </div>
+            </div>
+            
+            <div>
+                <a class="item" id="curiosidades" href="#" onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')">Curiosidades</a>
+                    <div onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')" class="esconder" id="menu_curiosidades">
+                        <a href="../curiosidades/animais.html">Animais</a>
+                        <a href="../curiosidades/lugares.html">Lugares</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <section class="minisecao">
+                <h2>Estalo de Thanos em Vingadores é impossível, revelam cientistas</h2>
+                <img src="imagens/filmes/thanos.webp" alt="thanos">
+                <p>Ato é fisicamente impossível, revela estudo.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Novo Resident Evil é recomendado para fãs de games em primeiras reações</h2>
+                <img src="imagens/filmes/resident-evil.jpg" alt="resident-evil">
+                <p>Filme parece fiel aos games da Capcom.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>The Batman: Personagem bissexual, voz de Pattinson e mais sobre exibição teste</h2>
+                <img src="imagens/filmes/the-batman-1.webp" alt="the-batman">
+                <p>Informações sobre sessão privada do filme da DC surgem nas redes sociais.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Homem-Aranha: Em vídeo, Tom Holland é flagrado dando possível spoiler</h2>
+                <img src="imagens/filmes/homem-aranha-3.jpg" alt="homem-aranha-3">
+                <p>Astro da Marvel quase fala mais do que deveria.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Homem-Aranha 3: As evidências de que Tobey Maguire e Andrew Garfield estão no trailer</h2>
+                <img src="imagens/filmes/tobey-andrew-tom.jpg" alt="tobey-andrew-tom">
+                <p>Fãs acreditam que os atores terão uma participação especial no blockbuster.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Filme de suspense desconhecido da Netflix vai abalar psicológico dos fãs</h2>
+                <img src="imagens/filmes/tumba-aberta-netflix.jpg" alt="tumba-aberta-netflix">
+                <p>Tudo sobre a trama arrepiante e o elenco de Tumba Aberta.</p>
+            </section><br>
+    </main>
+    <footer>
+        &copy; Desenvolvido por <strong>Allan Bismarck</strong> para <strong>Testes</strong>
+    </footer>
+    <script src="../script_index.js"></script>
+</body>
+</html>

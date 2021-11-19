@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Brasil</title>
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body onresize="diminuiu()">
+    <header>
+        <h1>NOTÍCIAS BRASIL</h1>
+        <div id="menu">
+            <div><a class="item" id="inicio" href="index.html">Início</a></div>
+
+            <div>
+                <a class="item" id="esportes" href="#" onmouseover="entrou('esportes')" onmouseout="saiu('esportes')">Esportes</a>
+                    <div onmouseover="entrou('esportes')" onmouseout="saiu('esportes')" class="esconder" id="menu_esportes">
+                        <a href="esportes/futebol.html">Futebol</a>
+                        <a href="esportes/volei.html">Vôlei</a>
+                        <a href="esportes/basquete.html">Basquete</a>
+                        <a href="esportes/MMA.html">MMA</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="politica" href="#" onmouseover="entrou('politica')" onmouseout="saiu('politica')">Política</a>
+                    <div onmouseover="entrou('politica')" onmouseout="saiu('politica')" class="esconder" id="menu_politica">
+                        <a href="politica/nacional.html">Nacional</a>
+                        <a href="politica/internacional.html">Internacional</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="entretenimento" href="#" onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')">Entretenimento</a>
+                    <div onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')" class="esconder" id="menu_entretenimento">
+                        <a href="entretenimento/series.html">Séries</a>
+                        <a href="entretenimento/filmes.html">Filmes</a>
+                        <a href="entretenimento/novelas.html">Novelas</a>
+                    </div>
+            </div>
+            
+            <div>
+                <a class="item" id="curiosidades" href="#" onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')">Curiosidades</a>
+                    <div onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')" class="esconder" id="menu_curiosidades">
+                        <a href="curiosidades/animais.html">Animais</a>
+                        <a href="curiosidades/lugares.html">Lugares</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <section class="minisecao">
+                <h2>Hamilton supera punições, vence GP de São Paulo e encosta em Verstappen</h2>
+                <img src="imagens_index/hamilton.jpg" alt="hamilton">
+                <p>Britânico larga em décimo, mas escala o grid e diminui distância para holandês.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Pix completa um ano entre polêmicas sobre segurança e mais de 100 milhões de usuários</h2>
+                <img src="imagens_index/pix.jpg" alt="pix">
+                <p>Exclusão digital limita avanço do Pix entre os mais pobres. Limite ao uso é custo de segurança pago pela sociedade, diz diretor do BC.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Entenda como Artacho Jurado, do Bretagne e do Viadutos, foi de kitsch a cult</h2>
+                <img src="imagens_index/construcao.jpg" alt="construcao">
+                <p>Construtor que marcou paisagem de São Paulo nos anos 1950 foi na contramão dos modernos e vira alvo de mostras.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>No litoral português, há um lugar paradisíaco para casas à beira-mar</h2>
+                <img src="imagens_index/Portugal.webp" alt="Portugal">
+                <p>Portugal tem sido uma opção para compradores de imóveis na Europa.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Brasileiro exporta Kombi restaurada para 15 países: 'Há pessoas alucinadas pelo modelo'</h2>
+                <img src="imagens_index/kombi.webp" alt="kombi">
+                <p>Negócio surgiu por acaso em 2016 e este ano vai vender no exterior 100 unidades.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Inflação é a maior para um mês de agosto desde 2002</h2>
+                <img src="imagens_index/imoveis-321976.jpg" alt="imoveis">
+                <p>IPCA-15 fica em 0,89%; no ano, o índice acumulou alta de 5,81% e, em 12 meses, de 9,30%, acima dos 8,59% observados nos 12 meses imediatamente anteriores.</p>
+            </section><br>
+    </main>
+    <footer>
+        &copy; Desenvolvido por <strong>Allan Bismarck</strong> para <strong>Testes</strong>
+    </footer>
+    <script src="script_index.js"></script>
+</body>
+</html>

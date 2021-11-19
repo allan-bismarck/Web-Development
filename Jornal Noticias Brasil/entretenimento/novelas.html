@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novelas</title>
+    <link rel="stylesheet" href="../style_index.css">
+</head>
+<body onresize="diminuiu()" onload="pagina()">
+    <header id="entretenimento">
+        <h1>NOVELAS</h1>
+        <div id="menu">
+            <div><a class="item" id="inicio" href="../index.html">Início</a></div>
+
+            <div>
+                <a class="item" id="esportes" href="#" onmouseover="entrou('esportes')" onmouseout="saiu('esportes')">Esportes</a>
+                    <div onmouseover="entrou('esportes')" onmouseout="saiu('esportes')" class="esconder" id="menu_esportes">
+                        <a href="../esportes/futebol.html">Futebol</a>
+                        <a href="../esportes/volei.html">Vôlei</a>
+                        <a href="../esportes/basquete.html">Basquete</a>
+                        <a href="../esportes/MMA.html">MMA</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="politica" href="#" onmouseover="entrou('politica')" onmouseout="saiu('politica')">Política</a>
+                    <div onmouseover="entrou('politica')" onmouseout="saiu('politica')" class="esconder" id="menu_politica">
+                        <a href="../politica/nacional.html">Nacional</a>
+                        <a href="../politica/internacional.html">Internacional</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="entretenimento" href="#" onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')">Entretenimento</a>
+                    <div onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')" class="esconder" id="menu_entretenimento">
+                        <a href="series.html">Séries</a>
+                        <a href="filmes.html">Filmes</a>
+                        <a href="novelas.html">Novelas</a>
+                    </div>
+            </div>
+            
+            <div>
+                <a class="item" id="curiosidades" href="#" onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')">Curiosidades</a>
+                    <div onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')" class="esconder" id="menu_curiosidades">
+                        <a href="../curiosidades/animais.html">Animais</a>
+                        <a href="../curiosidades/lugares.html">Lugares</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <section class="minisecao">
+                <h2>Pega Pega se despede com ricos presos, e bandidos dão volta por cima</h2>
+                <img src="imagens/novelas/pega-pega.webp" alt="pega-pega">
+            </section><br>
+            <section class="minisecao">
+                <h2>Um Lugar ao Sol: Ex-amante aparece para acabar com a vida do falso Renato</h2>
+                <img src="imagens/novelas/um-lugar-ao-sol.webp" alt="um-lugar-ao-sol">
+            </section><br>
+            <section class="minisecao">
+                <h2>Globo atenua violência e racismo e corta tesouradas de Nos Tempo do Imperador</h2>
+                <img src="imagens/novelas/nos-tempos-do-imperador-giulia-gayoso.webp" alt="nos-tempos-do-imperador-giulia-gayoso">
+            </section><br>
+            <section class="minisecao">
+                <h2>Em Nos Tempos do Imperador, Isabel sofre por não engravidar: 'Por que comigo?'</h2>
+                <img src="imagens/novelas/nos-tempos-do-imperador-heslaine-vieira.webp" alt="nos-tempos-do-imperador-heslaine-vieira">
+            </section><br>
+            <section class="minisecao">
+                <h2>Em Gênesis, Meritre tira o véu e enlouquece Pentephres: 'Essa sou eu de verdade'</h2>
+                <img src="imagens/novelas/genesis.webp" alt="genesis">
+            </section><br>
+            <section class="minisecao">
+                <h2>Resumo da novela Malhação: Capítulos de 19 a 26 de novembro</h2>
+                <img src="imagens/novelas/malhacao.webp" alt="malhacao">
+            </section><br>
+    </main>
+    <footer>
+        &copy; Desenvolvido por <strong>Allan Bismarck</strong> para <strong>Testes</strong>
+    </footer>
+    <script src="../script_index.js"></script>
+</body>
+</html>

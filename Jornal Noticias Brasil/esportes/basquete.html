@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basquete</title>
+    <link rel="stylesheet" href="../style_index.css">
+</head>
+<body onresize="diminuiu()" onload="pagina()">
+    <header id="esportes">
+        <h1>BASQUETE</h1>
+        <div id="menu">
+            <div><a class="item" id="inicio" href="../index.html">Início</a></div>
+
+            <div>
+                <a class="item" id="esportes" href="#" onmouseover="entrou('esportes')" onmouseout="saiu('esportes')">Esportes</a>
+                    <div onmouseover="entrou('esportes')" onmouseout="saiu('esportes')" class="esconder" id="menu_esportes">
+                        <a href="futebol.html">Futebol</a>
+                        <a href="volei.html">Vôlei</a>
+                        <a href="basquete.html">Basquete</a>
+                        <a href="MMA.html">MMA</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="politica" href="#" onmouseover="entrou('politica')" onmouseout="saiu('politica')">Política</a>
+                    <div onmouseover="entrou('politica')" onmouseout="saiu('politica')" class="esconder" id="menu_politica">
+                        <a href="../politica/nacional.html">Nacional</a>
+                        <a href="../politica/internacional.html">Internacional</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="entretenimento" href="#" onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')">Entretenimento</a>
+                    <div onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')" class="esconder" id="menu_entretenimento">
+                        <a href="../entretenimento/series.html">Séries</a>
+                        <a href="../entretenimento/filmes.html">Filmes</a>
+                        <a href="../entretenimento/novelas.html">Novelas</a>
+                    </div>
+            </div>
+            
+            <div>
+                <a class="item" id="curiosidades" href="#" onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')">Curiosidades</a>
+                    <div onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')" class="esconder" id="menu_curiosidades">
+                        <a href="../curiosidades/animais.html">Animais</a>
+                        <a href="../curiosidades/lugares.html">Lugares</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <section class="minisecao">
+                <h2>Curry anota 40, Warriors fazem 36 a 8 no último quarto e batem os Cavs de virada</h2>
+                <img src="imagens/basquete/curry.jpg" alt="curry">
+                <p>Melhor time da NBA passa três períodos atrás no placar, mas reage com autoridade para a 13ª vitória em 15 jogos na temporada.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Sem sustos, Franca domina Corinthians e vence sétima seguida no NBB</h2>
+                <img src="imagens/basquete/franca-x-corinthians.jpg" alt="franca-x-corinthians">
+                <p>Time francano faz 86 a 62, mantém liderança e invencibilidade, e impõe quinta derrota ao Timão.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Rio Claro supera Paulistano no Felipão e vence terceira no NBB</h2>
+                <img src="imagens/basquete/rio-claro.jpg" alt="rio-claro">
+                <p>Ala-pivô Diego tem boa atuação com 28 pontos para os donos da casa, que sobem na tabela do nacional.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Em jogo apertado, Sesi Araraquara segura Ituano e abre vantagem na semifinal do Paulista</h2>
+                <img src="imagens/basquete/araraquara.jfif" alt="araraquara">
+                <p>Com 50 a 47, time de Araraquara consegue vitória em casa e fica a um triunfo da final estadual.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>NBA: Brooklin Nets 99 x 117 Golden State Warriors</h2>
+                <img src="imagens/basquete/warriors.jpg" alt="warriors">
+                <p>Time de Stephen Curry conquista vitória importante na temporada regular.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>São Paulo vence, quebra série invicta do Bauru e encosta no G-4 do NBB</h2>
+                <img src="imagens/basquete/sao-paulo.jpeg" alt="sao-paulo">
+                <p>Tricolor chega à quarta vitória consecutiva, sobe na tabela e põe fim a sequência de cinco jogos sem perder do Dragão.</p>
+            </section><br>
+    </main>
+    <footer>
+        &copy; Desenvolvido por <strong>Allan Bismarck</strong> para <strong>Testes</strong>
+    </footer>
+    <script src="../script_index.js"></script>
+</body>
+</html>

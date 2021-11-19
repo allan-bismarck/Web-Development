@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares</title>
+    <link rel="stylesheet" href="../style_index.css">
+</head>
+<body onresize="diminuiu()" onload="pagina()">
+    <header id="curiosidades">
+        <h1>LUGARES</h1>
+        <div id="menu">
+            <div><a class="item" id="inicio" href="../index.html">Início</a></div>
+
+            <div>
+                <a class="item" id="esportes" href="#" onmouseover="entrou('esportes')" onmouseout="saiu('esportes')">Esportes</a>
+                    <div onmouseover="entrou('esportes')" onmouseout="saiu('esportes')" class="esconder" id="menu_esportes">
+                        <a href="../esportes/futebol.html">Futebol</a>
+                        <a href="../esportes/volei.html">Vôlei</a>
+                        <a href="../esportes/basquete.html">Basquete</a>
+                        <a href="../esportes/MMA.html">MMA</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="politica" href="#" onmouseover="entrou('politica')" onmouseout="saiu('politica')">Política</a>
+                    <div onmouseover="entrou('politica')" onmouseout="saiu('politica')" class="esconder" id="menu_politica">
+                        <a href="../politica/nacional.html">Nacional</a>
+                        <a href="../politica/internacional.html">Internacional</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="entretenimento" href="#" onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')">Entretenimento</a>
+                    <div onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')" class="esconder" id="menu_entretenimento">
+                        <a href="../entretenimento/series.html">Séries</a>
+                        <a href="../entretenimento/filmes.html">Filmes</a>
+                        <a href="../entretenimento/novelas.html">Novelas</a>
+                    </div>
+            </div>
+            
+            <div>
+                <a class="item" id="curiosidades" href="#" onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')">Curiosidades</a>
+                    <div onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')" class="esconder" id="menu_curiosidades">
+                        <a href="animais.html">Animais</a>
+                        <a href="lugares.html">Lugares</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <section class="minisecao">
+                <h2>Turistas são multados por entrar no Coliseu de Roma à noite para beber</h2>
+                <img src="imagens/lugares/coliseuromano.jpg" alt="coliseuromano">
+                <p>Dois americanos de 24 e 25 anos escalaram os muros do famoso anfiteatro. Cada um foi autuado em R$ 4.969.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>As maravilhas arquitetônicas da milenar 'Manhattan do deserto'</h2>
+                <img src="imagens/lugares/arabia.jpg" alt="arabia">
+                <p>Construídos com materiais naturais, os arranha-céus iemenitas se adaptam perfeitamente ao clima quente e seco do deserto árabe.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>A 'bomba-relógio' que ameaça vilarejo idílico nas montanhas da Suíça</h2>
+                <img src="imagens/lugares/suica.jpg" alt="suica">
+                <p>Mais de 60 anos depois de uma explosão que causou destruição total, passado trágico de Mitholz volta a assombrá-lo.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Arco de Darwin, formação rochosa em Galápagos, sofre erosão e desmorona</h2>
+                <img src="imagens/lugares/darwin.jpg" alt="Darwin">
+                <p>Processo de desgaste foi natural, diz Ministério do Meio Ambiente. Agora, restam apenas dois pilares.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Rio tem 4º pôr do sol mais bonito do mundo e é o mais postado em rede social, aponta pesquisa</h2>
+                <img src="imagens/lugares/praia.jpg" alt="praia">
+                <p>Cidade só fica atrás de Santorini, Bali e Havaí, segundo levantamento do site Bounce, que analisa recomendações de blogs e artigos e posts no Instagram.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Como é Songdo, a 'cidade do futuro' criada do zero na Coreia do Sul</h2>
+                <img src="imagens/lugares/coreia-do-sul.jpeg" alt="coreia-do-sul">
+                <p>A 40 quilômetros da capital coreana, uma cidade conta com as mais avançadas tecnologias de habitação e planejamento urbano.</p>
+            </section><br>
+    </main>
+    <footer>
+        &copy; Desenvolvido por <strong>Allan Bismarck</strong> para <strong>Testes</strong>
+    </footer>
+    <script src="../script_index.js"></script>
+</body>
+</html>

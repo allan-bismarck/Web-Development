@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais</title>
+    <link rel="stylesheet" href="../style_index.css">
+</head>
+<body onresize="diminuiu()" onload="pagina()">
+    <header id="curiosidades">
+        <h1>ANIMAIS</h1>
+        <div id="menu">
+            <div><a class="item" id="inicio" href="../index.html">Início</a></div>
+
+            <div>
+                <a class="item" id="esportes" href="#" onmouseover="entrou('esportes')" onmouseout="saiu('esportes')">Esportes</a>
+                    <div onmouseover="entrou('esportes')" onmouseout="saiu('esportes')" class="esconder" id="menu_esportes">
+                        <a href="../esportes/futebol.html">Futebol</a>
+                        <a href="../esportes/volei.html">Vôlei</a>
+                        <a href="../esportes/basquete.html">Basquete</a>
+                        <a href="../esportes/MMA.html">MMA</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="politica" href="#" onmouseover="entrou('politica')" onmouseout="saiu('politica')">Política</a>
+                    <div onmouseover="entrou('politica')" onmouseout="saiu('politica')" class="esconder" id="menu_politica">
+                        <a href="../politica/nacional.html">Nacional</a>
+                        <a href="../politica/internacional.html">Internacional</a>
+                    </div>
+            </div>
+
+            <div>
+                <a class="item"  id="entretenimento" href="#" onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')">Entretenimento</a>
+                    <div onmouseover="entrou('entretenimento')" onmouseout="saiu('entretenimento')" class="esconder" id="menu_entretenimento">
+                        <a href="../entretenimento/series.html">Séries</a>
+                        <a href="../entretenimento/filmes.html">Filmes</a>
+                        <a href="../entretenimento/novelas.html">Novelas</a>
+                    </div>
+            </div>
+            
+            <div>
+                <a class="item" id="curiosidades" href="#" onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')">Curiosidades</a>
+                    <div onmouseover="entrou('curiosidades')" onmouseout="saiu('curiosidades')" class="esconder" id="menu_curiosidades">
+                        <a href="animais.html">Animais</a>
+                        <a href="lugares.html">Lugares</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <section class="minisecao">
+                <h2>Santos, no litoral de SP, vai permitir cães na praia a partir de janeiro</h2>
+                <img src="imagens/animais/cachorro.jpg" alt="cachorro">
+                <p>Prefeitura diz que Santos é a primeira cidade do litoral paulista a liberar cachorros na faixa de areia.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Mudanças climáticas estão afetando o formato dos corpos de pássaros, diz estudo</h2>
+                <img src="imagens/animais/passaro.png" alt="passaro">
+                <p>Pesquisadores estudaram informações de mais de 77 espécies na Amazônia.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Leopardos-das-neves morrem de complicações de Covid-19 em zoológico nos EUA</h2>
+                <img src="imagens/animais/leopardo-da-neve-2.png" alt="leopardo-da-neve-2">
+                <p>Animais são nativos da Ásia Central e estão na lista de espécies vulneráveis à extinção.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Gatos podem rastrear presença de humanos usando apenas as orelhas, diz estudo</h2>
+                <img src="imagens/animais/gatos.jpg" alt="gatos">
+                <p>O estudo, realizado em uma casa e em um café para gatos, observou como os gatos reagem às vozes de seus donos sem pistas visuais.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Abelhas emitem alerta sonoro para defesa contra ataque de vespas assassinas</h2>
+                <img src="imagens/animais/abelhas.jpg" alt="abelhas">
+                <p>Insetos produzem sinal frenético que estimula estratégias de defesa para proteção e sobrevivência.</p>
+            </section><br>
+            <section class="minisecao">
+                <h2>Novo estudo mostra que preguiças pré-históricas se alimentavam de carne animal</h2>
+                <img src="imagens/animais/preguica-1.jpg" alt="preguica-1">
+                <p>Milodontes, uma espécie de preguiça pré-histórica, podiam alcançar o tamanho de elefantes e provavelmente eram 'onívoros oportunistas'.</p>
+            </section><br>
+    </main>
+    <footer>
+        &copy; Desenvolvido por <strong>Allan Bismarck</strong> para <strong>Testes</strong>
+    </footer>
+    <script src="../script_index.js"></script>
+</body>
+</html>
