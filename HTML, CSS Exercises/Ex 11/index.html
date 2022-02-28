@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-height: 350px)" srcset="imagens/google-images-p.png" type="image/png">
+        <source media="(max-height: 500px)" srcset="imagens/google-images-m.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/google-images-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/google-images-m.png" type="image/png">
+        <img src="imagens/google-images-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios em HTML5</h1>
+    <audio src="midia/34-mannie_fresh-real_big-CBO.mp3" controls autoplay></audio>    
+    <!--MP3 WAV OGG--> <!--Problemas de compatibilidade com o navegador-->
+    <p>Outra forma de adicionar áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/34-mannie_fresh-real_big-CBO.mp3" type="audio/mpeg">
+        <source src="midia/34-mannie_fresh-real_big-CBO2.ogg" type="audio/ogg">
+        <source src="midia/34-mannie_fresh-real_big-CBO.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/34-mannie_fresh-real_big-CBO.mp3">Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+</body>
+</html>

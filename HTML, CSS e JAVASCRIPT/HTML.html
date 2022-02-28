@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Meu site</title>
+		<style>
+			body {  margin: 0;
+				text-align: center;
+				font-family: arial;
+				background: #777
+				
+			}
+			p { color: #FFF }
+			.brilha { color: #000; font-size: 25px } 
+			.brilha:hover { color: #FFF; background: red }
+			p#laerte { color: #FF0 }
+			h1 { 
+				color: #CCC;
+				background: yellow;
+				width: 250px;
+				border: 5px solid red;
+				margin: 0px auto;
+				padding: 5px 5px;
+				
+
+				 
+			}
+			a { color: #00F; 
+			    text-decoration: none;
+			}
+			a:visited { color: #009 }
+			a:hover { color: #900 }
+			a:active { color: #F09; background: #FFF }
+			
+			table { border: 1px solid black;
+				border-collapse: collapse;
+				margin: auto;
+				caption-side: bottom;
+			}
+			caption { font-size: 80%; padding-top: 5px; }
+			th, td { border: 1px solid black;
+				 padding: 3px 10px;
+			}
+			th { background: #FFF }
+			td { background: #999 }
+		</style>
+	</head>
+	
+	<body>
+		<h1>Ronaldo</h1>
+		<p class="brilha">Brilha muito no Corinthians.</p>
+		<p class="brilha">Acesse o site pessoal de Ronaldo <a href="https://pt.wikipedia.org/wiki/Ronaldo_Naz%C3%A1rio" target="_blank">aqui</a>.</p>
+		<table>
+			<caption>Este eh um teste</caption>
+			<tr>
+				<th>Nome</th><th>Idade</th>	
+			</tr>
+			<tr>
+				<td>Laerte</td><td>1 bilhao de anos</td>
+			</tr>
+		</table>
+		<p><br /><br /></p>
+		<h2>Faca seu login</h2>
+		<form>
+			Nome: <input name="nome"/><br />
+			Senha: <input type="password" name="senha"/><br />
+			Idade: <select name="idade">
+				<option>Escolha sua idade</option>
+				<option value="menor">Menor de 18</option>
+				<option value="adulto">Entre 18 e 60 anos</option>
+				<option value="idoso">Mais de 60 anos</option>
+			</select><br />
+			Sexo: <input type="radio" name="sexo" value="m">Masculino
+			      <input type="radio" name="sexo" value="f">Feminino<br />
+			Redes sociais:<br />
+			      <input type="checkbox" name="redes" value="face">Facebook
+			      <input type="checkbox" name="redes" value="insta">Instagram
+			      <input type="checkbox" name="redes" value="google">Google
+			      <input type="checkbox" name="redes" value="skype">Skype
+			      <input type="checkbox" name="redes" value="whats">Whatsapp<br />
+			<input type="submit" value="Enviar1" />
+			<button type="submit">Enviar2</button>
+			<button type="reset">Limpar</button>
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(arquivos/fontes/idroid.otf);
+}
+
+body {
+    background-color: #90ee9085;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-indent: 30px;
+    margin: 10px 10px;
+    line-height: 1.3em;
+}
+
+h2 {
+    margin: 10px 10px;
+}
+
+a.externo::after {
+    content: '\1F517';
+}
+
+header {
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-image: linear-gradient(to bottom, lightgreen, darkgreen);
+    color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.452);
+}
+
+header > h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+header > p {
+    font-size: large;
+    max-width: 500px;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+}
+
+header > nav {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+header > nav > a {
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: solid;
+}
+
+header > nav > a:hover {
+    text-decoration: underline;
+}
+
+main > section#inicio > article > p > a {
+    color: darkgreen;
+    text-decoration: solid;
+}
+
+main > section#inicio > article > p > a:hover {
+    text-decoration: underline;
+}
+
+main > section#inicio {
+    background-color: white;
+    text-align: justify;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 20px 20px 0px 20px;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.404);
+}
+
+main > section#inicio > article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+main > section#inicio > article > img {
+    max-width: 350px;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+main > section#inicio > article > picture#irina {
+    width: 98%;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+main > section#inicio > article > h2 {
+    font-family: 'idroid', sans-serif;
+    background-image: linear-gradient(to right, lightgreen, white);
+    padding-left: 10px;
+}
+
+main > section#inicio > article > h2#principal {
+    font-size: 30px;
+    background-image: none;
+    padding-left: 0px;
+}
+
+main > section#inicio > article > div#video {
+    background-color: green;
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.404);
+}
+
+main > section#inicio > article > div#video > iframe.videos {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main > section#fim {
+    background-color: white;
+    text-align: justify;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px auto 0px auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.404);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+main > section#fim > div#titulo {
+    min-width: 320px;
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+main > section#fim > article > div#extra {
+    background-color: #90ee9088;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+main > section#fim > article > div#extra > p > a {
+    color: darkgreen;
+    text-decoration: solid;
+}
+
+main > section#fim > article > div#extra > p > a:hover {
+    text-decoration: underline;
+}
+
+main > section#fim > article > div#extra > ul {
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: "✔ ";
+    padding: 5px;
+    text-align: left; 
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    color: greenyellow;
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+footer > p > span {
+    color: white;
+    font-weight: bold;
+}

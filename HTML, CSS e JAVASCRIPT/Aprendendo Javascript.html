@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Aprendendo Javascript</title>
+		<style>
+			body { font-family: arial }	
+			h2 { color: #777 }
+		</style>
+	</head>
+	<body>
+		<h1>Javascript</h1>
+		<h2>Aplicacao pratica!</h2>
+		<h3>Calculadora</h3>
+		<div>
+			Primeiro valor: <input id="n1"><br />
+			Segundo valor: <input id="n2">
+		</div>
+		<h3>Escolha a operacao:</h3>
+		<div>
+			<button onclick="soma()">Soma</button>
+			<button onclick="subtrai()">Subtracao</button>
+			<button onclick="multiplica()">Multiplicacao</button>
+			<button onclick="divide()">Divisao</button>
+		</div>
+		<h3>Resultado</h3>
+		<p id="result">(resultado)</p>
+		<script>
+			var frase="Tomar na bunda!";
+			var num=15;
+			function Imprimir() {
+				console.log(frase+" "+num+".");
+				console.log(num);
+			}
+			function ImprimirParametro(mensagem, numero) {
+				console.log(mensagem+" "+numero+".");
+				console.log(numero);
+			}
+			Imprimir();
+			ImprimirParametro("Tomar no cu!", 30);
+			
+			function soma() {
+				var e1=parseFloat(document.getElementById("n1").value);
+				var e2=parseFloat(document.getElementById("n2").value);
+				var e3= e1 + e2;
+				document.getElementById("result").innerHTML = e3;
+			}
+			
+			function subtrai() {
+				var e1=parseFloat(document.getElementById("n1").value);
+				var e2=parseFloat(document.getElementById("n2").value);
+				var e3= e1 - e2;
+				document.getElementById("result").innerHTML = e3;
+			}
+			
+			function multiplica() {
+				var e1=parseFloat(document.getElementById("n1").value);
+				var e2=parseFloat(document.getElementById("n2").value);
+				var e3= e1 * e2;
+				document.getElementById("result").innerHTML = e3;
+			}
+				
+			function divide() {
+				var e1=parseFloat(document.getElementById("n1").value);
+				var e2=parseFloat(document.getElementById("n2").value);
+				if(e2==0) {
+					document.getElementById("result").innerHTML = "Impossivel dividir por zero!";
+				} else {
+					var e3= e1 / e2;
+					document.getElementById("result").innerHTML = e3;
+				  }
+			}
+
+		</script>
+	</body>
+</html>

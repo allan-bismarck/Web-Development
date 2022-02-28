@@ -1,0 +1,68 @@
+@charset "UTF-8";  
+
+:root {
+    --largura-coluna: 160px;
+    --cor-fundo: rgb(162, 152, 219);
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+div#menu {
+    display: flex;
+    background-color: rgba(0, 255, 0, 0.719);
+}
+
+div#menu > div {
+    column-width: var(--largura-coluna);
+}
+
+div#menu > div > a {
+    display: block;
+    padding: 8px 20px;
+    text-decoration: unset;
+    text-align: center;
+}
+
+div#menu > div > a:hover {
+    display: block;
+    padding: 8px 20px;
+    color: white;
+    text-decoration: unset;
+    background-color: black;
+}
+
+div#menu > div > div {
+    position: absolute;
+    background-color: lightgreen;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.473);
+    text-align: center;
+    column-width: var(--largura-coluna);
+}
+
+div#menu > div > div > a {
+    padding: 8px;
+    text-align: center;
+    text-decoration: unset;
+    display: block;   
+}
+
+div#menu > div > div > a:hover {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: unset;
+    background-color: black;
+}
+
+.esconder {
+    display: none;
+}
