@@ -4,4 +4,4 @@
 
 ## ✨ Description
 
-#### <p align="justify">📚🗂 Repository with some exercises developed in HTML5, CSS, in addition, it has some personal-codes like a drop-down menu.</p>
+#### <p align="justify">📚🗂 Repository with some exercises developed in HTML5, CSS3 and JavaScript, in addition it has some personal mini-codes as a dropdown menu.</p>
