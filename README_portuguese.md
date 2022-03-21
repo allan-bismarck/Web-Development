@@ -1,4 +1,4 @@
-<a href="README.MD">Read this page in english</a>
+<a href="README.md" target="_blank">Read this page in english<a/> 
 
 # 💻 Desenvolvimento Web
 
