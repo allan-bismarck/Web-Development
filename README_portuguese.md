@@ -1,3 +1,5 @@
+<a href="README.MD">Read this page in english</a>
+
 # 💻 Desenvolvimento Web
 
 ## ✨ Descrição
