@@ -1,5 +1,7 @@
-# 💻 Desenvolvimento Web
+<a href="README_portuguese.md" target="_blank">Leia esta página em português<a/> 
 
-## ✨ Descrição
+# 💻 Web Development
 
-#### <p align="justify">📚🗂 Repositório com alguns exercícios desenvolvidos em HTML5, CSS3 e JavaScript, além disso possui alguns mini-códigos pessoais como um menu dropdown.</p>
+## ✨ Description
+
+#### <p align="justify">📚🗂 Repository with some exercises developed in HTML5, CSS, in addition, it has some personal-codes like a drop-down menu.</p>
